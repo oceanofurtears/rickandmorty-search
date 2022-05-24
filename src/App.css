@@ -1,0 +1,79 @@
+.App-header {
+  background-color: #2c2c2c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fefefe;
+
+}
+
+.TEST {
+  font-size: 24px;
+  color: #fefefe;
+}
+
+.results {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+ 
+  margin-top: 50px;
+}
+
+.checkbox {
+  font-size: 20px;
+  color: #fefefe;
+
+  
+}
+
+.search {
+  background-color: rgb(78, 78, 78);
+  text-align: center;
+  padding: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 10px;
+}
+
+.input {
+  font-size: 25px;
+  width: 1200px;
+  
+  border-radius: 5px;
+}
+
+.character_image {
+  border-radius: 32px;
+
+  transition: 0.7s;
+}
+
+.character_image:hover {
+  transform: scale(1.2);
+  border: solid 2px #fefefe;
+}
+
+.character_name {
+  color: #fefefe;
+  font-size: 20px;
+  font-weight: bold;
+
+  text-shadow: 1px 1px 1px #2c2c2c
+}
+
+.character_description {
+  padding: 8px;
+  gap: 8px;
+  color: #fefefec0;
+  font-size: 16px;
+  font-weight: bold;
+
+  text-shadow: 1px 1px 1px #2c2c2c
+}
